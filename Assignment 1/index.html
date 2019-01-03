@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Table-hardcoded</title>
+</head>
+
+<body>
+    <div class="container">
+        <table class="table bordered striped">
+            <thead class="header">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>City</th>
+                    <th>Loc</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+
+            <tbody id="myData">
+                <tr>
+                    <td>[[ID]]</td>
+                    <td>[[Name]]</td>
+                    <td>[[city]]</td>
+                    <td>[[Loc]]</td>
+                    <td>[[Price]]</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="jquery.miranda.min.js"></script>
+
+
+    <script>
+        var listData = [{
+                "ID": "801",
+                "Name": "Triranjan",
+                "city": "Bangalore",
+                "Loc": "Malleshwaram",
+                "Price": 8100000
+            }, {
+                "ID": "809",
+                "Name": "Roddam",
+                "city": "Chennai",
+                "Loc": "Palani",
+                "Price": 5600000
+            }, {
+                "ID": "810",
+                "Name": "Shatrughna",
+                "city": "Delhi",
+                "Loc": "South end",
+                "Price": 7700000
+
+            },
+            {
+                "ID": "816",
+                "Name": "Shatrughna",
+                "city": "Cochin",
+                "Loc": "Vannar",
+                "Price": 4400000
+            },
+            {
+                "ID": "942",
+                "Name": "Simba",
+                "city": "Chandigrah",
+                "Loc": "Bhagatsingh nagar",
+                "Price": 3800000
+            },
+            {
+                "ID": "980",
+                "Name": "Nizamuddin",
+                "city": "Hyderabad",
+                "Loc": "Filmnagar",
+                "Price": 9990000
+            }
+
+
+        ]
+
+        $('#myData').mirandajs(listData);
+    </script>
+</body>
+
+</html>

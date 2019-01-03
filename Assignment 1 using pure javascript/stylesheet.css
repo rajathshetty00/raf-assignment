@@ -1,0 +1,31 @@
+body {
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#container {
+     width: 30%;
+     margin: 0 auto;
+}
+
+table {
+     border-collapse: collapse;
+     border-spacing: unset;
+}
+
+
+th {
+     background: brown;
+     color: #eee;
+     padding: 0.5em 1em;
+}
+
+td {
+     padding: 0.5em;
+     border: 1px solid #333;
+}
+
+
+tr:nth-child(even) {
+     background: #dcd;
+}

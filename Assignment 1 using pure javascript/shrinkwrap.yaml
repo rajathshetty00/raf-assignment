@@ -1,0 +1,15 @@
+dependencies:
+  pnpm: 2.23.1
+packages:
+  /pnpm/2.23.1:
+    dev: false
+    engines:
+      node: '>=6'
+    hasBin: true
+    resolution:
+      integrity: sha512-NQ1D4JhoGgzAEGnNrZ3N2NHQgGTxs0xub7b/xYO0mvRIBu2U50eDfUyhy+gKi50dSHHUflGGAaychXr+DoIBew==
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  pnpm: ^2.23.1

@@ -1,0 +1,33 @@
+.container {
+     margin: 50px auto;
+     width: 30%;
+}
+
+
+
+.table {
+     background: #eee;
+     border-collapse: collapse;
+     border-spacing: unset;
+
+
+
+}
+
+.header {
+     background: green;
+
+
+
+}
+
+
+th,
+td {
+     padding: 0.5em 1em;
+     border: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+     background: #ddd;
+}
