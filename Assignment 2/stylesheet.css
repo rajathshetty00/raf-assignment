@@ -1,0 +1,23 @@
+h3 {
+     text-align: center;
+}
+
+table {
+     width: 30%;
+     margin: 20px auto;
+}
+
+
+thead {
+     background: brown;
+     color: white;
+}
+
+th {
+     padding: 0.5em 1em;
+}
+
+td {
+     border: 1px solid #ccc;
+     padding: 0.5em;
+}
